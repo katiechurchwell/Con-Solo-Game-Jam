@@ -8,6 +8,8 @@ var enemyHealth = 50;
 var enemyAttack = 12;
 console.log(enemyName, enemyAttack, enemyHealth);
 
+var playerMoney = 10;
+
 // Alert players that they are starting the road
 var fight = function () {
   window.alert("Welcome to Robot Gladiators!");
@@ -22,7 +24,6 @@ enemyHealth = enemyHealth - playerAttack;
 console.log(
   playerName + " attacked " + enemyName + ". " + enemyName + " now has " + enemyHealth + " health remaining. "
  );
-
 
  // check enemy's health
  if (enemyHealth <= 0) {
@@ -50,6 +51,23 @@ console.log(
   } else {
     window.alert("You need to choose a valid option. Try again!");
   }
+
+} else if (promptFight === "skip" || promptFight === "SKIP") {
+  // confirm player wants to skip
+  var confirmSkip = window.confirm("are you sure you'd like to quit?")
+
+  //if yes (true), leave fight
+  if (confirmSkip) {
+    window.alert(playerName + " has decided to skip this fight. Goodbye!")
+    //subtract money from playerMoney for skipping
+    playerMoney = playerMoney - 2;
+  }
+  // if no (false), ask question again by running fight() again
+  else {
+    fight();
+  }
+}
+
 
 // Log a resulting message to the console so we know that it worked.
 console.log(
