@@ -33,6 +33,13 @@ var fight = function(enemyName) {
       }
     }
 
+// would you like to play again? //
+var startGame = function() {
+
+}
+//if skip; refill, upgrade or leave store //
+
+
     // remove enemy's health by subtracting the amount set in the playerAttack variable
     enemyHealth = enemyHealth - playerAttack;
     console.log(
