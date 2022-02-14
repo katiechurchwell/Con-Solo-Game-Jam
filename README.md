@@ -1,5 +1,14 @@
 # Robot Gladiators
-## Game Sequence:
+  [![project-languages-used](https://img.shields.io/github/languages/count/katiechurchwell/Robot-Gladiators?color=important)](https://github.com/katiechurchwell/Robot-Gladiators)
+  [![project-top-language](https://img.shields.io/github/languages/top/katiechurchwell/Robot-Gladiators?color=blueviolet)](https://github.com/katiechurchwell/Robot-Gladiatorsr)
+
+
+## Summary
+![JavaScript](https://img.shields.io/badge/JavaScript_ES6-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
+
+A browser-based game played through prompts.
+
+### Game Sequence:
 1. The game will prompt the player to name their robot.
 2. The player's robot will be initialized with the following properties:
     * 100 health points
@@ -19,3 +28,18 @@
     * Roborto will attack the player's robot, and Roberto's attack points will be deducted from the player's robot's health points.
     * The game will display the player-robot's remaining health points.
 8. The game will end.
+
+## Deployment
+katiechurchwell.github.io/Robot-Gladiators/
+
+## Demo
+![Demo of Robot Gladiators](/demo.gif)
+
+## Questions
+  If you have any questions about this project, please open an issue or use the contact information below:
+  * [katiechurchwell](https://www.github.com/katiechurchwell)
+  * [churchwellcatherine@gmail.com](mailto:churchwellcatherine@gmail.com)
+
+
+---
+  ![](https://img.shields.io/badge/license-MIT-blue)
